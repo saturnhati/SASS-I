@@ -1,0 +1,22 @@
+{
+  "name": "u2-w6-d3-sass-i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnhati/U2-W6-D3-Sass-I.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saturnhati/U2-W6-D3-Sass-I/issues"
+  },
+  "homepage": "https://github.com/saturnhati/U2-W6-D3-Sass-I#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
