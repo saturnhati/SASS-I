@@ -1,0 +1,17 @@
+@import "_colors";
+@import "_buttons";
+
+
+body {
+    background-color: $primary;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        font-size: 2rem;
+    }
+}
