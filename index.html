@@ -4,18 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="styleshett" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>SASS I</title>
   </head>
   <body>
-    <div class="header">
-      <h1>NOME SITO</h1>
+    <header>
+      <h1>WEBSITE NAME</h1>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">CONTACTS</a>
+        </li>
+      </ul>
+    </header>
+    <div class="main">
       <div class="buttons">
-        <button>CHANGE COLOR</button>
-        <button>SHOW IMAGE</button>
+        <button onclick="changeColor()">CHANGE COLOR</button>
+        <button onclick="showImage()">SHOW/HIDE IMAGE</button>
       </div>
+      <img class="visibility" src="./assets/images/gengar.png" />
     </div>
+    <script src="./assets/js/script.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
